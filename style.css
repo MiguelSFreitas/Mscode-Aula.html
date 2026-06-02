@@ -12,7 +12,7 @@ body{
     display:flex;
     flex-direction:column;
     background:linear-gradient(135deg,#0f172a,#1e293b,#334155);
-    color:rgb(0, 0, 0);
+    color:white;
 }
 
 header{
