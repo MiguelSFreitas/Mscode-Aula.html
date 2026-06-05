@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Loja Virtual</title>
+</head>
+<body>
+
+    <header>
+        <h1>Minha Loja</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#categorias">Categorias</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <form action="/buscar" method="GET">
+            <input type="search" name="busca" placeholder="Digite o que procura...">
+            <button type="submit">Buscar</button>
+        </form>
+    </header>
+
+    <hr>
+
+    <main>
+        <section id="home">
+            
+            <img src="https://www.yampi.com.br/blog/wp-content/uploads/2023/11/BANNER-PRINCIPAL-COMPLETO-01.png" alt="Banner principal da loja" width="100%">
+        </section>
+
+        <hr>
+
+        <section id="categorias">
+            <h2>Nossas Categorias</h2>
+            <ul>
+                <li>Eletrônicos</li>
+                <li>Moda e Acessórios</li>
+                <li>Casa e Decoração</li>
+                <li>Esportes e Lazer</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section id="produtos">
+            <h2>Produtos em Destaque</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Foto</th>
+                        <th>Nome</th>
+                        <th>Valor</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="data:image/webp;base64,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" alt="Iphone 17 Pro Max"></td>
+                        <td>iPhone 17 Pro Max</td>
+                        <td>R$ 9.990,00</td>
+                    </tr>
+                    <tr>
+                        <td><img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQzBbxKNFIqdDZOTC-YxOVl1ht0ZKMbzvQojtmB2bMCqlG4cFecGzlzckQ6AujMJfy1ZK5MDoSrjoeH97i0z1AO0fVgGDHkxxMQFWtRavoDqxYFt156OWvj" alt="Tênis Adidas Adizero Boston"></td>
+                        <td>Tênis Adidas Adizero Boston</td>
+                        <td>R$ 1.1499,00</td>
+                    </tr>
+                    <tr>
+                        <td><img src="https://via.placeholder.com/100" alt="Produto 3"></td>
+                        <td>Camiseta Algodão Premium</td>
+                        <td>R$ 79,90</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <hr>
+
+        <section id="contato">
+            <h2>Fale Conosco</h2>
+            <form action="/enviar-contato" method="POST">
+                <div>
+                    <label for="nome">Nome:</label><br>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <br>
+                <div>
+                    <label for="email">E-mail:</label><br>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <br>
+                <div>
+                    <label for="assunto">Assunto:</label><br>
+                    <input type="text" id="assunto" name="assunto" required>
+                </div>
+                <br>
+                <div>
+                    <label for="mensagem">Mensagem:</label><br>
+                    <textarea id="mensagem" name="mensagem" rows="5" cols="30" required></textarea>
+                </div>
+                <br>
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
+
+    <hr>
+
+    <footer>
+        <div>
+            <h3>Siga-nos nas Redes Sociais</h3>
+            <ul>
+                <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
+                <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
+                <li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
+            </ul>
+        </div>
+        <br>
+        <div>
+            <p>&copy; 2026 Minha Loja Virtual. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
