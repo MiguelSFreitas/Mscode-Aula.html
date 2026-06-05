@@ -104,7 +104,7 @@
         font-weight: 500;
     }
 
-    /* Tabela de Produtos Moderna */
+    
     table {
         width: 100%;
         border-collapse: collapse;
@@ -128,7 +128,7 @@
         border-radius: 4px;
     }
 
-    /* Formulário de Contato */
+
     #contato form {
         max-width: 500px;
     }
