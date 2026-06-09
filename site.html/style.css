@@ -185,3 +185,7 @@
     footer a:hover {
         color: white;
     }
+
+    footer p a{
+        color: #FF6B35;
+    }
