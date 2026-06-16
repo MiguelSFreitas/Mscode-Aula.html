@@ -2,7 +2,7 @@
     :root{
         --background-color : #F8F9FA; /*Cor Principal de fundo */
     }
-
+    
     body {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         background-color: var(--background-color);
