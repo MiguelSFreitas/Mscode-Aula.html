@@ -1,5 +1,13 @@
-#flexbox h1  {
-    display: flex;
-    justify-content: center;
-  
+:root{
+    --header_color : green
+    
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: ;
 }
