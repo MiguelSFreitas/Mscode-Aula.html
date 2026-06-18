@@ -116,7 +116,7 @@ h2 {
 .categoria-item {
     background-color: var(--color-bg-card);
     border-radius: 8px;
-    box-shadow: 0 4px 6px --color-text-dark
+    box-shadow: 0 4px 6px --color-text-dark;
     width: 150px;
     text-align: center;
 }
