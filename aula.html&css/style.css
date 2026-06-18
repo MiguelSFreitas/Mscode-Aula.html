@@ -116,7 +116,7 @@ h2 {
 .categoria-item {
     background-color: var(--color-bg-card);
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 4px 6px --color-text-dark
     width: 150px;
     text-align: center;
 }
@@ -136,7 +136,7 @@ h2 {
 
 .categoria-item img {
     width: 80px;
-    height: 80px;
+    height: 100px;
     object-fit: cover;
     border-radius: 4px;
 }
@@ -180,7 +180,7 @@ h2 {
 
 .produtos-item img, .produto-item img {
     width: 150px;
-    height: 150px;
+    height: 200px;
     object-fit: cover;
     border-radius: 4px;
 }
